@@ -10,6 +10,7 @@ export default function Wishlist() {
   return (
     <div>
       <h1>My Wishlist</h1>
+      <h3>Items: {wishlist.length}</h3>
       {wishlist.length === 0 ? (
         <h3>
           There is nothing in wishlist. Why don't you go and add something
